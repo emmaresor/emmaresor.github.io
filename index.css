@@ -1,0 +1,39 @@
+#home {
+        background-color: lightblue;
+        text-align: center;
+        position: absolute
+        font-family: "Century Gothic";
+}
+
+#intro {
+        font-size: 2.5em;
+}
+#blurb {
+        font-size: 1.5em;
+}
+#photo {
+        position: center;
+}
+
+#resume {
+        background-color: lightblue;
+        margin: 50px 50px 50px 50px;
+        font-family: "Century Gothic";
+}
+.return {
+        text-align: right;
+}
+.category {
+        text-transform: uppercase;
+        border-bottom-style: solid;
+        border-bottom-width: 2px;
+}
+#degree {
+        font-style: italic;
+}
+
+#bio {
+        background-color: lightblue;
+        text-align: center;
+        font-family: "Century Gothic";
+}
