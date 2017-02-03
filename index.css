@@ -1,53 +1,95 @@
+@import "compass/css3";
+
 #home {
-	background-image: url("IMG_2348.jpg");
-	background-repeat: no-repeat; 
-	background-size: 100% auto;
+	background-color: WhiteSmoke;
         position: relative;
+	margin: 0px;
         font-family: "Century Gothic";
-        text-align: left;
 	font-weight: bold;
-	padding-left: 200px;
-	padding-top: 50px;
-}
-#intro {
-        font-size: 2.5em;
-}
-#blurb {
-        font-size: 1.5em;
 }
 
-#link {
-        padding-top: 280px;
-	font-size: 2em;
-        font-family: "Century Gothic";
+.navigation {
+	list-style: none;
+	margin: 0px;
+
+	background: LightSlateGrey;
+    	padding: 20px;
+	
+	display: webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-felx;
+	display: flex;
+
+	-webkit-flex-flow: row wrap;
+	justify-content: flex-end;	
+}
+
+.navigation a {
+	justify-content: space-around;
+    	padding: 10px;
 	text-decoration: none;
-	word-spacing: 40px;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: right;
 	color: white;
 }
 
-#photo {
-        position: center;
+.decorative-band {
+	list-style: none;
+	margin: 0px;
+	background: LightSteelBlue;
+    	padding: 8px;
+	
+	display: webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-felx;
+	display: flex;
+
+	-webkit-flex-flow: row wrap;
+	justify-content: flex-end;	
+
+}
+
+#intro {
+        font-size: 2.5em;
+	text-align: center;
+}
+#blurb {
+        font-size: 1.5em;
+	text-align: center;
+}
+
+#home-pic {
+	padding-top: 20px;
+	text-align: center;
 }
 
 #resume {
-        background-color: lightblue;
-        margin: 50px 50px 50px 50px;
+	background-color: WhiteSmoke;
+	margin: 0px;
         font-family: "Century Gothic";
+	text-indent: 50px;
+	list-style-position: inside;
+	padding-bottom: 20px;
 }
-.return {
-        text-align: right;
-}
+
 .category {
         text-transform: uppercase;
         border-bottom-style: solid;
         border-bottom-width: 2px;
+	margin: 20px;
+	text-indent: 15px;
 }
+
 #degree {
         font-style: italic;
 }
 
 #bio {
-        background-color: lightblue;
+	background-color: WhiteSmoke;
+	margin: 0px;
         text-align: center;
 	line-height: 2;
         font-family: "Century Gothic";
