@@ -1,16 +1,30 @@
 #home {
-        background-color: lightblue;
-        text-align: center;
-        position: absolute
+	background-image: url("IMG_2348.jpg");
+	background-repeat: no-repeat; 
+	background-size: 100% auto;
+        position: relative;
         font-family: "Century Gothic";
+        text-align: left;
+	font-weight: bold;
+	padding-left: 200px;
+	padding-top: 50px;
 }
-
 #intro {
         font-size: 2.5em;
 }
 #blurb {
         font-size: 1.5em;
 }
+
+#link {
+        padding-top: 280px;
+	font-size: 2em;
+        font-family: "Century Gothic";
+	text-decoration: none;
+	word-spacing: 40px;
+	color: white;
+}
+
 #photo {
         position: center;
 }
@@ -35,5 +49,6 @@
 #bio {
         background-color: lightblue;
         text-align: center;
+	line-height: 2;
         font-family: "Century Gothic";
 }
