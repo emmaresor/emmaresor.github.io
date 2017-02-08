@@ -11,10 +11,7 @@ have a working menu bar with a decorative band underneath using flexbox, but I
 think that there is likely a simpler way to do the same thing.
 	I do think that I correctly implemented my links to other pages and 
 stuck to the HTML content-only, CSS styling-only rules. 
-	I did have one error in the CSS file when I ran it through the validator,
-but I could not figure out what was causing it. It says: "Value Error : position 
-attempt to find a semi-colon before the property name. add it" but there was no
-semi-colon or colon missing/in the wrong place.
+	I do have some warnings from the CSS validator with the webkit stuff.
 
 Collaboration:
 	I discussed my design with Dan Katz, but in no great detail, and visited
