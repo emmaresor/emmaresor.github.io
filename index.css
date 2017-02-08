@@ -1,7 +1,11 @@
-@import "compass/css3";
+*********************************************************************************/
+*		   Personal Portfolio Website CSS File (index.css)
+*  		       COMP20: Web Programming, Spring 2017
+* 	            	        By: Emma Resor
+*********************************************************************************/
 
 #home {
-	background-color: WhiteSmoke;
+	background-color: #F5F5F5 /* == WhiteSmoke*/
         position: relative;
 	margin: 0px;
         font-family: "Century Gothic";
@@ -11,7 +15,7 @@
 	list-style: none;
 	margin: 0px;
 
-	background: LightSlateGrey;
+	background: #778899; /* == LightSlateGrey*/
     	padding: 20px;
 
 	/* rest of rule from https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
@@ -43,7 +47,7 @@
 .decorative-band {
 	list-style: none;
 	margin: 0px;
-	background: LightSteelBlue;
+	background: #B0C4DE; /* == LightSteelBlue*/
     	padding: 8px;
 	
 	display: webkit-box;
@@ -54,7 +58,6 @@
 
 	-webkit-flex-flow: row wrap;
 	justify-content: flex-end;	
-
 }
 
 #intro {
@@ -72,10 +75,10 @@
 }
 
 #resume {
-	background-color: WhiteSmoke;
+	background-color: #F5F5F5 /* == WhiteSmoke*/
+        position: relative;
 	margin: 0px;
         font-family: "Century Gothic";
-	/*text-indent: 50px;*/
 	list-style-position: inside;
 	padding-bottom: 30px;
 }
@@ -94,17 +97,10 @@
 }
 
 #bio {
-	background-color: WhiteSmoke;
+	background-color: #F5F5F5 /* == WhiteSmoke*/
+        position: relative;
 	margin: 0px;
 	text-align: center;
-        font-family: "Century Gothic";
-}
-
-#projects {
-	list-style: none;
-	background-color: WhiteSmoke;
-	margin: 0px;
-        text-align: center;
         font-family: "Century Gothic";
 }
 
