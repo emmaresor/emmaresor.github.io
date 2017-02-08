@@ -75,7 +75,7 @@
 }
 
 #resume {
-	background-color: #F5F5F5 /* == WhiteSmoke*/
+	background-color: #F5F5F5; /* == WhiteSmoke*/
         position: relative;
 	margin: 0px;
         font-family: "Century Gothic";
@@ -97,7 +97,7 @@
 }
 
 #bio {
-	background-color: #F5F5F5 /* == WhiteSmoke*/
+	background-color: #F5F5F5; /* == WhiteSmoke*/
         position: relative;
 	margin: 0px;
 	text-align: center;
