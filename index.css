@@ -1,13 +1,13 @@
-*********************************************************************************/
+/*******************************************************************************
 *		   Personal Portfolio Website CSS File (index.css)
 *  		       COMP20: Web Programming, Spring 2017
 * 	            	        By: Emma Resor
-*********************************************************************************/
+*******************************************************************************/
 
 #home {
-	background-color: #F5F5F5 /* == WhiteSmoke*/
-        position: relative;
+	background-color: #F5F5F5; /* == WhiteSmoke*/
 	margin: 0px;
+        position: relative;
         font-family: "Century Gothic";
 }
 
