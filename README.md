@@ -1,8 +1,7 @@
-*********************************************************************************/
-* 			    Personal Portfolio Website
-*  		       COMP20: Web Programming, Spring 2017
-* 	            	        By: Emma Resor
-*********************************************************************************/
+Personal Portfolio Website |
+COMP20: Web Programming, Spring 2017 |
+By: Emma Resor
+-----------------------------------------------------------------------------
 
 Implementation:
 	On the whole, I believe that I implemented my website adequately, but 
@@ -20,7 +19,7 @@ For example: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ and tips
 on redirecting.
 
 Time Spent:
-	I spent roughly 10 hours on this assignment. Much of that was spent 
+	I spent roughly 5 hours on this assignment. Much of that was spent 
 making small changes to see how it looked, not necessary ones. 
 
 
