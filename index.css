@@ -14,17 +14,17 @@ body, html {
   background-size: cover;
 }
 .pic1 {
-  background-image: url("wy.jpg");
+  background-image: url("flipped_me.jpg");
   min-height: 100%;
 }
 
 #portfolio {
-  background-image: url("montana.jpg");
+  background-image: url("wy.jpg");
   min-height: 500px;
 }
 
 #resume {
-  background-image: url("rousseau.jpg");
+  background-image: url("montana.jpg");
   min-height: 500px;
 }
 
