@@ -1,108 +1,111 @@
 /*******************************************************************************
-*		   Personal Portfolio Website CSS File (index.css)
-*  		       COMP20: Web Programming, Spring 2017
-* 	            	        By: Emma Resor
+*		        Personal Website Main CSS File (index.css)
 *******************************************************************************/
 
-#home {
-	background-color: #F5F5F5; /* == WhiteSmoke*/
-	margin: 0px;
-        position: relative;
-        font-family: "Century Gothic";
+body, html {
+	  height: 100%;
+	  font: 400 15px/1.8 "Lato", serif;
+	  color: #777;
 }
 
-.navigation {
-	list-style: none;
-	margin: 0px;
-
-	background: #778899; /* == LightSlateGrey*/
-    	padding: 20px;
-
-	/* rest of rule from https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-felx;
-	display: flex;
-
-	justify-content: flex-end;
-	align-items: center;
-	-webkit-flex-align: center;
-	-ms-felx-align: center;
-	-webkit-align-items: center;
+.pic1, #portfolio, #resume {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+.pic1 {
+  background-image: url("wy.jpg");
+  min-height: 100%;
 }
 
-.navigation a {
-    	padding: 10px;
-	text-decoration: none;
-	font-size: 18px;
-	text-align: right;
-	color: white;
-}
-
-.navigation a:hover {
-	color: black;
-}
-
-.decorative-band {
-	list-style: none;
-	margin: 0px;
-	background: #B0C4DE; /* == LightSteelBlue*/
-    	padding: 8px;
-	
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-felx;
-	display: flex;
-
-	-webkit-flex-flow: row wrap;
-	justify-content: flex-end;	
-}
-
-#intro {
-        font-size: 2.5em;
-	text-align: center;
-}
-#blurb {
-        font-size: 1.5em;
-	text-align: center;
-}
-
-#home-pic {
-	padding-top: 20px;
-	text-align: center;
+#portfolio {
+  background-image: url("montana.jpg");
+  min-height: 500px;
 }
 
 #resume {
-	background-color: #F5F5F5; /* == WhiteSmoke*/
-        position: relative;
-	margin: 0px;
-        font-family: "Century Gothic";
-	list-style-position: inside;
-	padding-bottom: 30px;
+  background-image: url("rousseau.jpg");
+  min-height: 500px;
 }
 
-.category {
-        text-transform: uppercase;
-        border-bottom-style: solid;
-        border-bottom-width: 2px;
-	margin: 20px;
-	text-indent: 15px;
+#menu {
+  position: absolute;;
+  top: 0%;
+  width: 100%;
+  text-align: right;
 }
 
-#degree {
-        font-style: italic;
-	text-indent: 20px;
+#menu span.menu_item:hover {
+	color: lightgrey;
 }
 
-#bio {
-	background-color: #F5F5F5; /* == WhiteSmoke*/
-        position: relative;
-	margin: 0px;
+#menu span.menu_item {
+	color: white;
+	font-size: 13px;
+	letter-spacing: 3px;
+	padding-right: 20px;
+}
+
+.front_page {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  text-align: left;
+  padding-left: 100px;
+}
+
+.front_page span.name {
+  background-color: #333333;
+  opacity: .65;
+  color: #fff;
+  padding: 30px;
+  padding-top: 220px;
+  padding-bottom: 220px;
+  font-size: 40px;
+  letter-spacing: 6px;
+}
+
+.label_box {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+}
+
+.label_box span.border {
+  background-color: #333333;
+  color: #fff;
+  padding: 24px;
+  font-size: 25px;
+  letter-spacing: 6px;
+}
+
+#about, #goals, #contact {
+	background-color: white;
 	text-align: center;
-        font-family: "Century Gothic";
+	color: black;
+	letter-spacing: 1.5px;
+	padding: 5px;
 }
 
-.resume-item {
-	text-indent: 20px;
+#contact {
+	padding-bottom: 20px;
+	position: absolute;
+	width: 100%;
 }
 
+a {
+	text-decoration: none;
+}
+
+.contact_link {
+	color: black;
+}
+
+.contact_link:hover {
+	color: grey;
+}
+
+h3 {
+	letter-spacing: 5px;
+}

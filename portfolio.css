@@ -1,0 +1,44 @@
+/*******************************************************************************
+*		        Personal Website Portfolio CSS File (index.css)
+*******************************************************************************/
+
+body {
+    background-image: url("wy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 0%;
+    background-attachment: fixed;
+}
+
+.portfolio_list {
+  background-attachment: scroll;
+  position: absolute;
+  top: 5%;
+  width: 50%;
+  text-align: center;
+  padding-left: 100px;
+}
+
+.spacer {
+    opacity: 0.00;
+}
+
+.portfolio_item {
+    background-attachment: scroll;
+    color: #fff;
+    background-color: #333333;
+    padding: 30px;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+/*prevents menu from scrolling with rest of content */
+#menu {
+  position: fixed !important;
+  background-attachment: fixed !important;
+}
+
+/* keeps contact bar at bottom of screen */
+#contact {
+    margin-top: 100% !important;
+}

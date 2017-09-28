@@ -1,27 +1,63 @@
 <!--*****************************************************************************
-*		   Personal Portfolio Website Home Page (index.html)
-*  		       COMP20: Web Programming, Spring 2017
-* 	            	        By: Emma Resor
+*		        Personal Website Home Page (index.html)
 ******************************************************************************-->
 
 <!doctype html>
 <html>
 	<head>
-                <title> Emma Resor </title>
+        <title> Emma Resor </title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
 		<link rel="stylesheet" type="text/css" href="index.css">
+		<link rel="shortcut icon" href="favicon.ico">
+		<script src="https://use.fontawesome.com/996c04210c.js"></script>
 	</head>
-        <body id="home">
-		<!-- the navegation bar at the top of every page with links to other pages-->
-		<ul class="navigation">
-		<li><a href="http://emmaresor.github.io">Home</a></li>
-		<li><a href="http://emmaresor.github.io/bio.html">Bio</a></li>
-		<li><a href="http://emmaresor.github.io/resume.html">Resume</a></li>
-		</ul>
-		<ul class="decorative-band"><li> </li></ul>
-		<p id="intro"> Hey, I'm Emma.</p>
-               	<p id="blurb"> I'm a sophomore at Tufts University <br>
-               	studying Computer Science. </p>
-               	<p id="home-pic"><img src="cake.jpg" alt="Me" width="300"></p>
+        <body>
+			<div class="pic1">
+				<div id="menu">
+				<li>
+					<ul><a href="#menu"><span class="menu_item">HOME</span></a></ul>
+					<ul><a href="#about"><span class="menu_item">ABOUT</span></a></ul>
+					<ul><a href="#portfolio"><span class="menu_item">PORTFOLIO</span></a></ul>
+					<ul><a href="#goals"><span class="menu_item">GOALS</span></a></ul>
+
+					<ul><a href="#resume"><span class="menu_item">RESUME</span></a></ul>
+
+					<ul><a href="#contact"><span class="menu_item">CONTACT</span></a></ul>
+				</li>
+  			  </div>
+			  <div class="front_page">
+			    	<span class="name">EMMA B. RESOR</span>
+			  </div>
+			</div>
+
+			<div id="about">
+				<h3> ABOUT </h3>
+				<p> Hey! I'm Emma -- a junior at Tufts University studying Computer Science and Entrepreneurial Leadership. I'm currently living in Somerville, MA taking classes on Machine Structure and Assembly Language, Team Software, Management of Innovation, and Art and Surviellance. In my free time I'm working part-time at a Oath Craft Pizza, volunteering for Girls of Code workshops, re-learning tennis, and cooking with my mysterious farmshare vegetables. </p>
+			</div>
+
+			<div id="portfolio">
+			  <div class="label_box">
+				<a href="portfolio.html"><span class="border">PORTFOLIO</span></a>
+			  </div>
+			</div>
+
+			<div id="goals">
+				<h3> GOALS </h3>
+				<p> I see myself working for a small, environment- or food-oriented tech startup for the summer of 2018, ideally abroad. As for my long-term goals -- I'm gonna open a killer Bed and Breakfast in the Scotish Highlands, and hopefully raise some goats. </p>
+			</div>
+
+			<div id="resume">
+			  <div class="label_box">
+				<a href="Emma_Resor_Resume.pdf"target="_blank"><span class="border">RESUME</span></a>
+			  </div>
+			</div>
+
+			<div id="contact">
+				<h3> CONTACT </h3>
+				<p><a class="contact_link" href="mailto:emma.resor@tufts.edu"><i class="fa fa-envelope" aria-hidden="true"></i> Email</a> &#183; <a class="contact_link" href="https://www.facebook.com/emma.resor" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i> Facebook</a> &#183;
+				<a class="contact_link" href="https://linkedin.com" target="_blank"> <i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a> &#183;
+				<a class="contact_link" href="https://github.com/emmaresor/emmaresor.github.io" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></p>
+			</div>
         </body>
 </html>
-
