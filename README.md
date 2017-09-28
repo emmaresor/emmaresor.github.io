@@ -1,2 +1,2 @@
- 			        Personal Portfolio Website
- 	            	     By: Emma Resor
+Personal Portfolio Website
+By: Emma Resor
